@@ -1,20 +1,19 @@
-# Prismlog
+# PrimeLogger
 
-Prismlog is a beautiful, structured, and colorful logger for Node.js applications. It provides an expressive and flexible API to log messages with various colors, styles, and structured formats.
+PrimeLogger is a beautiful, structured, and colorful logger for Node.js applications. It provides an expressive and flexible API to log messages with various colors, styles, and structured formats.
 
 ## Features
 
 - Built-in support for colorful and styled console logs using Chalk
 - Fluent API with chaining for colors, background colors, and styles
 - Automatic detection and pretty printing of arrays and objects, including table-like display using `console.table`
-
 - Labels and timestamps for structured logging
 - Configurable logging levels and themes
 
 ## Installation
 
 ```bash
-npm install prismlog
+npm install primelogger
 ```
 
 ## Usage
@@ -22,7 +21,7 @@ npm install prismlog
 Import the logger and use its fluent API:
 
 ```typescript
-import logger from 'prismlog';
+import logger from 'primelogger';
 
 logger.color('magenta').info('This message is magenta!');
 logger.success('Operation completed successfully!');
@@ -55,13 +54,13 @@ ts-node src/example/demo.ts
 
 ## Acknowledgements
 
-Special thanks to the [Chalk](https://www.npmjs.com/package/chalk) package for providing the colorful and styled console output capabilities that Prismlog leverages.
+Special thanks to the [Chalk](https://www.npmjs.com/package/chalk) package for providing the colorful and styled console output capabilities that PrimeLogger leverages.
 
 ## Author
 
 Raj Sharma  
 Email: rjsharmase@gmail.com  
-GitHub: [https://github.com/rjsharma/prismlog](https://github.com/rjsharma/prismlog)
+GitHub: [https://github.com/rjsharma/primelogger](https://github.com/rjsharma/primelogger)
 
 ## License
 

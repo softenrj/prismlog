@@ -1,5 +1,5 @@
 {
-  "name": "prismlog",
+  "name": "primelogger",
   "version": "1.0.0",
   "description": "A beautiful, structured, and colorful logger for Node.js apps",
   "main": "dist/index.js",
