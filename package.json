@@ -1,0 +1,35 @@
+{
+  "name": "prismlog",
+  "version": "1.0.0",
+  "description": "A beautiful, structured, and colorful logger for Node.js apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "logger",
+    "console",
+    "color",
+    "chalk",
+    "nodejs",
+    "debug"
+  ],
+  "author": "Raj rjsharmase@gmail.com",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
